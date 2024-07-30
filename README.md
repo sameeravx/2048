@@ -26,8 +26,8 @@ The rules of the game are straightforward:
 
 To play the game, you have several options:
 
-1. Play the game online: [2048 Game](https://sameeraz.github.io/2048).
+1. Play the game online: [2048 Game](https://sameeravx.github.io/2048).
 2. Clone the repository and run the game locally on your computer.
 
 ## Touch with me
-Click Here : [https://sameeraz.github.io](https://sameeraz.github.io)
+Click Here : [https://sameeravx.github.io](https://sameeravx.github.io)
