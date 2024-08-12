@@ -1,79 +1,73 @@
 <!DOCTYPE html>
-<html >
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>2048 Game</title>
-	<link rel="shortcut icon" type="image/png" href="images/favicon-2048.ico"/>
-	
+	<title>2048 Game - Sameera Liyanage</title>
+	<link rel="icon" type="image/png" href="assets/images/favicon-2048.ico"/>	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Sameera Liyanage - 2048 Game" />
 	<meta name="keywords" content="sameera, liyanage, online, profile, linkedin, software engineer, jobs, services, 2048, game, 2048 game" />
-	<meta name="author" content="Sameera Liayange" />
-	
-	<link rel="stylesheet" href="css/style.css">
-
-  
+	<meta name="author" content="Sameera Liyanage" />	
+	<link rel="stylesheet" href="assets/css/style.css">  
 </head>
 
 <body>
   <div class="container">
-  <div class="heading">
-    <h1 class="title">2048</h1>
-    <div class="score-container">0</div>
+    <div class="heading">
+      <h1 class="title">2048</h1>
+      <div class="score-container">0</div>
+    </div>
+    <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+          <a class="retry-button">Try again</a>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+      </div>
+    </div>
+
+    <p class="game-explanation">
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
+    </p>
+    <hr>
+    <p>Created by <a href="https://sameeraz.github.io" target="_blank" rel="noopener noreferrer" aria-label="Developer">Sameera Liyanage.</a> </p>
   </div>
-  <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
-
-  <div class="game-container">
-    <div class="game-message">
-      <p></p>
-      <div class="lower">
-        <a class="retry-button">Try again</a>
-      </div>
-    </div>
-
-    <div class="grid-container">
-      <div class="grid-row">
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-      </div>
-      <div class="grid-row">
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-      </div>
-      <div class="grid-row">
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-      </div>
-      <div class="grid-row">
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-      </div>
-    </div>
-
-    <div class="tile-container">
-
-    </div>
-  </div>
-
-  <p class="game-explanation">
-    <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
-  </p>
-  <hr>
-  <p>
-  Created by <a href="https://sameeraz.github.io" target="_blank">Sameera.</a> </p>
-</div>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/1.0.6/hammer.min.js'></script>
-
-      <script src="js/index.js"></script>
+  
+  <script src="assets/js/hammer.min.js"></script>
+  <script src="assets/js/index.js"></script>
 
 </body>
 </html>
