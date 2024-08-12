@@ -1,6 +1,6 @@
 # 2048 Game
 
-![2048 Game Screenshot](images/screenshot-2048.png)
+![2048 Game Screenshot](assets/images/screenshot-2048.png)
 
 ## Description
 
